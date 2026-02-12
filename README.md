@@ -1,2 +1,183 @@
-# TRAVEL-_AGENCY
-TRAVEL AGENCY WEBPAGE
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Explorer</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f8ff;
+        }
+
+        header {
+            background-color: palevioletred;
+            color: whitesmoke;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: orange;
+        }
+
+
+        .hero {
+            background-image: url("https://t3.ftcdn.net/jpg/02/65/23/70/360_F_265237090_Muthvb72m2POYFjyx7F5UCQLh9JdBtKN.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+        }
+
+        .section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .card {
+            display: inline-block;
+            width: 250px;
+            background-color: white;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px gray;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .package {
+            display: inline-block;
+            width: 250px;
+            border: 2px solid palevioletred;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .best {
+            border: 3px solid orange;
+            background-color: #fff8e1;
+        }
+
+        button {
+            background-color: palevioletred;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: orange;
+        }
+
+        footer {
+            background-color: palevioletred;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+  
+    <header>
+        <h1>The Explorer</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Destinations</a>
+            <a href="#">Packages</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Escape the ordinary</h2>
+        <p>Your adventure starts here!</p>
+    </div>
+
+    <div class="section">
+        <h2>Featured Destinations</h2>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34">
+            <h3>Paris</h3>
+            <p>The city of love and lights.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFsZGl2ZXN8ZW58MHx8MHx8fDA%3D">
+            <h3>Maldives</h3>
+            <p>Relax on beautiful beaches.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/521714583/photo/new-york-city-midtown-with-empire-state-building-at-sunset.jpg?s=612x612&w=0&k=20&c=paLoZfZnaZSfaBK_DxLls_Ii0hD3r2PBKSlS6M1QxVU=">
+            <h3>New York</h3>
+            <p>The city that never sleeps.</p>
+        </div>
+    </div>
+    <div class="section">
+        <h2>Our Packages</h2>
+
+        <div class="package">
+            <h3>Basic</h3>
+            <p>₹39,999</p>
+            <p>3 Days / 2 Nights</p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="package best">
+            <h3>Premium (Best Value)</h3>
+            <p>₹59,999</p>
+            <p>7 Days / 6 Nights</p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="package">
+            <h3>Luxury</h3>
+            <p>₹99,999</p>
+            <p>14 Days / 13 Nights</p>
+            <button>Book Now</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact: info@TheExplorer.com | +91 98765 43210</p>
+        <p>Follow us on Facebook | Instagram | X</p>
+        <p>© 2026 The Explorer. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+ 
+
+
+
+
+
+
+
